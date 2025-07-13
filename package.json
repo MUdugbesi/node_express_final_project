@@ -1,0 +1,25 @@
+{
+  "name": "book-review",
+  "version": "1.0.0",
+  "description": "An application for users to review various books online",
+  "keywords": [
+    "book",
+    "review"
+  ],
+  "license": "Apache-2.0",
+  "author": "MUdugbesi",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "nodemon": "^3.1.10"
+  }
+}

@@ -1,0 +1,7 @@
+# nodules
+*.nodules
+
+# environment variables
+*.env
+*.local.env
+
